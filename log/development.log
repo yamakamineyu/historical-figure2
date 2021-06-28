@@ -382,3 +382,250 @@ Processing by TopController#index as HTML
 Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-06-29 05:54:34 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/config
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/images
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/stylesheets
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/stylesheets
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jcanvas-rails-0.1.0/app/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2641009696945486621_70092276607640'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.9ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (109.7ms)
+Started GET "/" for ::1 at 2021-06-29 05:57:38 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/config
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/images
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/stylesheets
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/stylesheets
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jcanvas-rails-0.1.0/app/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2641009696945486621_70092311769500'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.8ms)
+Started GET "/" for ::1 at 2021-06-29 05:57:40 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/config
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/images
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/stylesheets
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/stylesheets
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jcanvas-rails-0.1.0/app/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2641009696945486621_70092327264400'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.8ms)
+Started GET "/" for ::1 at 2021-06-29 06:07:30 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/config
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/images
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/stylesheets
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/stylesheets
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jcanvas-rails-0.1.0/app/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2641009696945486621_70092251282800'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (97.3ms)
+Started GET "/" for ::1 at 2021-06-29 06:09:26 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'activestorage' with type 'application/javascript'
+Checked in these paths: 
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/config
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/images
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/stylesheets
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/stylesheets
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jcanvas-rails-0.1.0/app/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2641009696945486621_70092253461000'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (95.4ms)
+Started GET "/" for ::1 at 2021-06-29 06:12:38 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/config
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/images
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/assets/stylesheets
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/javascripts
+  /Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/vendor/assets/stylesheets
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jcanvas-rails-0.1.0/app/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actioncable-5.0.7.2/lib/assets/compiled
+  /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/javascripts/application.js:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__2641009696945486621_70092259356900'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.8ms)
+Started GET "/" for ::1 at 2021-06-29 06:12:53 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 191ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+
+
