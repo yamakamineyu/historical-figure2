@@ -629,3 +629,67 @@ Processing by TopController#index as HTML
 Completed 200 OK in 191ms (Views: 190.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-06-29 06:15:49 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-29 06:16:33 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (24.3ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (jquery.japan-map.min.js):
+    1: <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    2: <%= javascript_include_tag 'jquery.japan-map.min.js' %>
+    3:   <script>
+    4:   $(function(){
+    5:     $("#map-container").japanMap({
+  
+app/views/layouts/index.html.erb:2:in `_app_views_layouts_index_html_erb__2639115183900053704_70092268331100'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (98.8ms)
+Started GET "/" for ::1 at 2021-06-29 06:17:52 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (jquery.japan-map.min.js):
+    1: <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    2: <%= javascript_include_tag 'jquery.japan-map.min.js' %>
+    3:   <script>
+    4:   $(function(){
+    5:     $("#map-container").japanMap({
+  
+app/views/layouts/index.html.erb:2:in `_app_views_layouts_index_html_erb__2639115183900053704_70092250765720'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.6ms)
+Started GET "/" for ::1 at 2021-06-29 06:22:12 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (193.1ms)
+Completed 200 OK in 245ms (Views: 238.8ms | ActiveRecord: 0.0ms)
+
+
