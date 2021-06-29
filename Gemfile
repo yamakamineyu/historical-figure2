@@ -56,3 +56,4 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'jcanvas-rails', '~> 0.1.0'
 
 gem 'rubocop', '~> 0.82.0', require: false
+gem 'bootstrap', '~> 5.0.0.beta1'
