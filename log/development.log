@@ -1353,3 +1353,120 @@ app/controllers/top_controller.rb:4:in `index'
   Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
   Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.4ms)
+Started GET "/" for ::1 at 2021-06-29 20:41:55 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:21: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+...g "Create" ,class"btn-primary");@output_buffer.to_s
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/layouts/index.html.erb:21: syntax error, unexpected ')', expecting &. or :: or '[' or '.'
+app/views/layouts/index.html.erb:22: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/index.html.erb:24: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (102.2ms)
+Started GET "/" for ::1 at 2021-06-29 20:42:17 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 484ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_path 'application', media: 'all', 'data-turbolinks-track': 'reload' %>　
+   10:   </head>
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1808375103791857337_70362758304400'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.4ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.1ms)
+Started GET "/" for ::1 at 2021-06-29 20:42:47 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1366ms (Views: 1365.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-29 20:44:29 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 21ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-06-29 20:45:31 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 1:1 of app/assets/stylesheets/application.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+    4:     <title>HistoricalFigure2</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= stylesheet_path 'application', media: 'all', 'data-turbolinks-track': 'reload' %>　
+   10:   </head>
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1808375103791857337_70362735665860'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.5ms)
+Started GET "/" for ::1 at 2021-06-29 20:54:06 +0900
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1356ms (Views: 1355.2ms | ActiveRecord: 0.0ms)
+
+
