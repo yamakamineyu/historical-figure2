@@ -13,3 +13,4 @@
 //= require turbolinks
 //= require jquery
 //= require jcanvas
+//= require bootstrap
