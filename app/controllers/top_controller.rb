@@ -4,4 +4,8 @@ class TopController < ApplicationController
     render "layouts/index"
   end
 
+  def new
+    
+  end
+
 end

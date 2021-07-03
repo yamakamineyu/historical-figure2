@@ -43,8 +43,9 @@
       <% if user_signed_in? %>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <%# <a class="nav-link active" aria-current="page" href="#">Home</a> %>
-        <%= class="nav-link" link_to "新規登録", new_user_registration_path, class: "header__right--btn" %>
-        <%= class="nav-link" href="#", link_to "ログイン", new_user_session_path %>
+        <%# <%= class="nav-link" link_to "新規登録", href="#" %> %>
+        <%# <%= class="nav-link" link_to "ログイン", href="#" %> %>
+        <a class="nav-link" new_user_registration_path>新規登録</a>
         <a class="nav-link" href="#">ゲストログイン</a>
       <% else %>
         <a class="nav-link" href="#">ゲストログイン</a>
