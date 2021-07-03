@@ -1652,3 +1652,46 @@ Migrating to DeviseCreateUsers (20210703055018)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
   [1m[35m (2.0ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
   [1m[35m (1.9ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
+Started GET "/" for ::1 at 2021-07-03 15:13:26 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TopController#index as HTML
+  Rendering layouts/index.html.erb within layouts/application
+  Rendered layouts/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:46: syntax error, unexpected '='
+...;@output_buffer.append=( class="nav-link" link_to "新規登...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting ')'
+...pend=( class="nav-link" link_to "新規登録", new_user_reg...
+...                        ^~~~~~~
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:47: syntax error, unexpected '='
+...;@output_buffer.append=( class="nav-link" href="#", link_to ...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+....append=( class="nav-link" href="#", link_to "ログイン",...
+...                           ^~~~
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...="nav-link" href="#", link_to "ログイン", new_user_sessi...
+...                              ^
+/Users/yamamotoyuta/projects/histrical-figure<bootstrap>/historical-figure2/app/views/layouts/index.html.erb:47: syntax error, unexpected ',', expecting ')'
+...ef="#", link_to "ログイン", new_user_session_path );@out...
+...                              ^):
+  
+app/views/layouts/index.html.erb:46: syntax error, unexpected '='
+app/views/layouts/index.html.erb:46: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/index.html.erb:47: syntax error, unexpected '='
+app/views/layouts/index.html.erb:47: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/index.html.erb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/index.html.erb:47: syntax error, unexpected ',', expecting ')'
+app/controllers/top_controller.rb:4:in `index'
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/yamamotoyuta/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.0ms)
