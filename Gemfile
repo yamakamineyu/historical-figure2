@@ -59,3 +59,5 @@ gem 'jcanvas-rails', '~> 0.1.0'
 
 gem 'rubocop', '~> 0.82.0', require: false
 gem 'bootstrap', '~> 5.0.0.beta1'
+
+gem "devise"
